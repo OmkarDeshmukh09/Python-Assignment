@@ -2,19 +2,14 @@
 from functools import reduce
 
 
-def SourghtPrime(arr):
-    if arr <= 1:
-        return False
-
-    for i in range(2, arr):
-        if arr % i == 0:
-            return False
-
-    return True  
+def SourghtEven(arr):
+        return(arr % 2 == 0) 
             
-SquareIncriment = lambda arr: (arr * 2 )
+def SquareIncriment(arr):
+     return (arr ** 2 )
 
-Maximaum = lambda a,b : max(a,b)
+def ProductAdd(a,b):
+         return(a + b)
 
 
 def main():
@@ -30,7 +25,7 @@ def main():
     
     print(Data)
 
-    Ret = list(filter(SourghtPrime,Data))
+    Ret = list(filter(SourghtEven,Data))
 
     print("After filter :", Ret)
     
@@ -38,7 +33,7 @@ def main():
 
     print("List After map", Ret)
 
-    Sum = reduce(Maximaum,Ret)
+    Sum = reduce(ProductAdd,Ret)
 
     print("Output of Reduce :",Sum)
 
