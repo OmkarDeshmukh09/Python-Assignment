@@ -16,6 +16,7 @@ def main():
         arr.append(Value)
     
     Ret = SumList(arr)
+    Ret = SumList(arr)
 
     print("The sum is : ",Ret)
      
