@@ -21,7 +21,7 @@ def main():
 #   Csv Loading
     df = pd.read_csv(DatasetPath)
 
-    print("Dataset loaded Succeesfully. ")
+    print("Dataset loaded Succeesfully.")
     
     pass_students = df[df["FinalResult"] == 1]
     fail_students = df[df["FinalResult"] == 0]
