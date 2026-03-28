@@ -46,7 +46,7 @@ def main():
     print("Substraction is : ",Ret)
     
     Ret = obj1.Multiplication()
-    print("Multiplication is : ",Ret)
+    print("Multiplication is :  ",Ret)
     
     Ret = obj1.Division()
     print("Division is : ",Ret)
