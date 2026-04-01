@@ -2,7 +2,7 @@ import threading
 
 def SumElement(Arr):
 
-    print("\nThe name of Thread is :", threading.current_thread().name)
+    print("\nThe name of Thread is : ", threading.current_thread().name)
     print("The ID of thread is   :", threading.get_ident())
 
     Sum = 0
