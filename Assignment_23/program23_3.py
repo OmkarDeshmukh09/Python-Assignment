@@ -1,5 +1,5 @@
 
-class Numbers:
+class Numbers: 
 
     Value = 0
 
